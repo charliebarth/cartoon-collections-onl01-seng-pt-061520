@@ -1,6 +1,6 @@
 def summon_captain_planet(array)
   array.collect do |element|
-    string = element.join
+    string = element.to_s
     string.capitalize + "!"
   end
 end
