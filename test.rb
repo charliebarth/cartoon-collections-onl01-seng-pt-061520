@@ -1,8 +1,7 @@
-def summon_captain_planet(array)
-  new_array = []
-  array.collect do |element|
-    new_array << element.to_s.capitalize + "!"
+def long_planeteer_calls(array)
+  array.select do |calls|
+    calls.size <= 4
   end
-  puts new_array
+  puts array
 end
-summon_captain_planet(["earth", "wind", "fire"])
+long_planeteer_calls(["earth", "wind", "fire"])
