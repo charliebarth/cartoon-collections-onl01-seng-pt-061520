@@ -1,7 +1,8 @@
 def summon_captain_planet(array)
+  new_array = []
   array.collect do |element|
-    element.to_s.capitalize + "!"
+    new_array << element.to_s.capitalize + "!"
   end
-  puts array
+  puts new_arrayarray
 end
 summon_captain_planet(["earth", "wind", "fire"])
