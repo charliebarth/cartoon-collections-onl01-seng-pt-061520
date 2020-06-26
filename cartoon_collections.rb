@@ -21,7 +21,6 @@ def long_planeteer_calls(array)
   shorter_calls = array.all? do |call|
     call.size <= 4
   end
-  array
 end
 
 def find_the_cheese# code an argument here
