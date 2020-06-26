@@ -5,5 +5,6 @@ def long_planeteer_calls(array)
   shorter_calls = array.all? do |call|
     call <= 4
   end
+  return array
 end
 long_planeteer_calls(["earth", "wind", "fire", "interpolate"])
