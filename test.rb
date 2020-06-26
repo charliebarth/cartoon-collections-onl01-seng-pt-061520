@@ -4,4 +4,4 @@ def summon_captain_planet(array)
     string.capitalize + "!"
   end
 end
-summon_captain_planet(array)
+summon_captain_planet(["earth", "wind", "fire"]
