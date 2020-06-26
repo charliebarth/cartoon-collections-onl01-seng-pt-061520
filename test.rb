@@ -4,4 +4,4 @@ def long_planeteer_calls(array)
   end
   puts array
 end
-long_planeteer_calls(["earth", "wind", "fire"])
+long_planeteer_calls(["earth", "wind", "fire", "interpolate"])
